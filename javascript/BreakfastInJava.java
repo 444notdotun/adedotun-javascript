@@ -1,6 +1,8 @@
+
 public class BreakfastInJava{
 	public static void main(String ...args){
-	String name = "adedotun";
+	/*
+String name = "adedotun";
 	String [] total = {"a","d","e","d","o","t","u","n"};
 	for(int count = name.length()-1; count >= 0; count--){
 		System.out.print(total[count]); 
@@ -50,7 +52,7 @@ public class BreakfastInJava{
 
 
 			
-	/*			
+				
 		
 	System.out.println(" ");
 	System.out.println(" ");
@@ -61,7 +63,7 @@ public class BreakfastInJava{
 		System.out.print( newletter + " is  " + char newletter);
 	} 
 		
-	*/
+	
 	
 	System.out.println(" ");
 	System.out.println(" ");
@@ -99,19 +101,30 @@ public class BreakfastInJava{
 		}
 	}
 	System.out.println(counter);
-/*
+*/
+	
+
+	String newletter = "";
 	char letter = ' ';
 	String number = "adedade";
 	for(int count = 0;count < number.length();count++){
 		letter = number.charAt(count);
-		
+		newletter = String.valueOf(letter);
+		newletter+=newletter;
 	}
-	if(letter== number){
+	
+	/*if(newletter == number){
 			System.out.print("its a palindrome");
 		}
 		else{
-		System.out.print("its not a palindrome");}
-*/
+
+
+		System.out.print("its not a palindrome");}*/
+
+
+
+
+/*
 
 
 int new_number = 11211;
@@ -253,7 +266,7 @@ int prime = 0;
 		System.out.println(count);
 
 
-
+*/
 
 
 
