@@ -1,7 +1,6 @@
 
 public class BreakfastInJava{
 	public static void main(String ...args){
-	/*
 String name = "adedotun";
 	String [] total = {"a","d","e","d","o","t","u","n"};
 	for(int count = name.length()-1; count >= 0; count--){
@@ -57,11 +56,11 @@ String name = "adedotun";
 	System.out.println(" ");
 	System.out.println(" ");
 	System.out.println(" "); 
-	letters = "adedotun";
+	/*letters = "adedotun";
 	for(int count = 0; count < letters.length();count++){
 		char newletter = letters.charAt(count);
 		System.out.print( newletter + " is  " + char newletter);
-	} 
+	} */
 		
 	
 	
@@ -91,6 +90,8 @@ String name = "adedotun";
 	System.out.println(" ");
 	System.out.println(" ");
 	System.out.println(" ");
+
+
 	givenNumber = 50;
 	ofSum = 0;
 	int counter = 0;
@@ -101,30 +102,24 @@ String name = "adedotun";
 		}
 	}
 	System.out.println(counter);
-*/
+
 	
 
-	String newletter = "";
-	char letter = ' ';
-	String number = "adedade";
-	for(int count = 0;count < number.length();count++){
-		letter = number.charAt(count);
-		newletter = String.valueOf(letter);
-		newletter+=newletter;
-	}
 	
-	/*if(newletter == number){
+	String number = "ada";
+	if(number.charAt(0) == number.charAt(2)){
 			System.out.print("its a palindrome");
 		}
 		else{
 
 
-		System.out.print("its not a palindrome");}*/
+		System.out.print("its not a palindrome");}
 
 
 
 
-/*
+	System.out.println(" ");
+	System.out.println(" ");
 
 
 int new_number = 11211;
@@ -182,7 +177,11 @@ int first_num2 = 0;
 		}
 			System.out.println("even digits in a number " +  result);
 
+		
 
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
 
 		numbersIn = 272;
 		int odd = 0;
@@ -197,7 +196,9 @@ int first_num2 = 0;
 		}
 			System.out.println("odd digits in a number " + result);
 
-
+				System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
 
 		int prime = 0;
 		result = 0;
@@ -230,20 +231,22 @@ int first_num2 = 0;
 
 
 
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
 
 
 
 
 
 
-
-
-int prime = 0;
+		int countPrime=0;
+		prime = 0;
 		result = 0;
 		for (int count = 2; count <= 100; count++){
 			int newcount = (int)Math.sqrt(count);
 			newcount++;
-			int countPrime=0;
+			
 			int exp = 0;
 			for(counter = 2; counter <= newcount;counter++){
 				exp = count%counter;
@@ -263,23 +266,54 @@ int prime = 0;
 			
 		}
 			
-		System.out.println(count);
+		System.out.println(countPrime);
 
 
-*/
-
-
-
-
-
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
 
 
 
 
+name = "adedotun is  a boy";
+counter=0;
+for(int count = 0; count < name.length(); count++){
+	
+	if( name.charAt(count)== ' '){
+		continue;
+		
+	}else{
+
+	
+		counter++;
+
+}
+	}
+
+//System.out.print("counter"+counter);
+
+int nameOutput =0;
+int newreturn = 0;
+name = "11011";
+int nameNumber =Integer.parseInt(name);
+
+for(int count = 0; nameNumber != 0;count+=2){
+	
+	int newNumber = nameNumber%10;
+	
+	nameNumber/=10;
+	
+	newreturn +=  newNumber*count;
+	
 
 
+	nameOutput+=newreturn;
 
-
+}
+System.out.print(nameOutput);
+	
+	
 
 
 
